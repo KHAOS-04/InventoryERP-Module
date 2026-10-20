@@ -27,7 +27,7 @@ DatabaseConnection.java  (HikariCP connection pool)
 inventory_database.db  (SQLite file on disk)
 ```
 
-The rule your instructor emphasized — **"InventoryFrame.java should call the functionality, not contain the functionality"** — means every button in the UI does exactly three things: read raw values from the fields, call one Service method, and show whatever message comes back. It never validates anything, never touches SQL, and never decides whether an operation is allowed.
+ **"InventoryFrame.java only calls the functionality, not contain the functionality"** — means every button in the UI does exactly three things: read raw values from the fields, call one Service method, and show whatever message comes back. It never validates anything, never touches SQL, and never decides whether an operation is allowed.
 
 ---
 
